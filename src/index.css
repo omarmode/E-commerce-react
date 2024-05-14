@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.border {
+  border: 2px solid red !important;
+}
+/* .css-1chynqf-MuiModal-root-MuiDrawer-root {
+  height: 0 !important;
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.parent-slider:hover {
+  cursor: grab;
+}
+
+.parent-slider:active {
+  cursor: grabbing;
+}
+
+.my-button {
+  padding: 10px !important ;
+  border: 1px solid white !important;
+  border-radius: 5px !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+a {
+  all: unset;
+}
+@media (max-width: 600px) {
+  .parent-slider img {
+    display: none;
+  }
+}
