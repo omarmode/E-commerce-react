@@ -157,11 +157,7 @@ function Hero() {
         </Swiper>
         <Box sx={{ display: { xs: "none", md: "block", width: "35%" } }}>
           <Box sx={{ position: "relative" }}>
-            <img
-              src="public\Image\banner-17.jpg"
-              style={{ width: "100%" }}
-              alt=""
-            />
+            <img src=".\Image\banner-17.jpg" style={{ width: "100%" }} alt="" />
             <Stack
               sx={{
                 position: "absolute",
@@ -206,11 +202,7 @@ function Hero() {
             </Stack>
           </Box>
           <Box sx={{ position: "relative" }}>
-            <img
-              src="public\Image\banner-16.jpg"
-              style={{ width: "100%" }}
-              alt=""
-            />
+            <img src=".\Image\banner-16.jpg" style={{ width: "100%" }} alt="" />
             <Stack
               sx={{
                 position: "absolute",
