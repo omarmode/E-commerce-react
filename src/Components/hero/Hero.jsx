@@ -39,7 +39,7 @@ function Hero() {
           className="mySwiper"
         >
           <SwiperSlide className="parent-slider">
-            <img src="public\Image\banner-15.jpg" alt="" />
+            <img src=".\Image\banner-15.jpg" alt="" />
             <Box
               sx={{
                 [theme.breakpoints.up("sm")]: {
@@ -95,7 +95,7 @@ function Hero() {
             </Box>
           </SwiperSlide>
           <SwiperSlide className="parent-slider">
-            <img src="public\Image\banner-25.jpg" alt="" />
+            <img src=".\Image\banner-25.jpg" alt="" />
             <Box
               sx={{
                 [theme.breakpoints.up("sm")]: {
